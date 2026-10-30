@@ -1,0 +1,19 @@
+# Secrets and credentials - never commit
+.env
+.env.*
+*.key
+*.pem
+*-sa-key.json
+adc.json
+.credentials.json
+
+# Local data and indexes
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
