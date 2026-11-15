@@ -1,5 +1,9 @@
 # claude-fts5-runner
 
+[![CI](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/hadayalab-web/claude-fts5-runner/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](./pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 A small, standard-library-only CLI that grounds [Claude Code](https://docs.anthropic.com/en/docs/claude-code) prompts with local knowledge retrieved from a SQLite FTS5 index.
 
 > **Status: v0.1.0, early but working.** Everything here is built with Claude Code in the open; nothing proprietary lives in this repo. APIs and the on-disk schema may change before 1.0.
